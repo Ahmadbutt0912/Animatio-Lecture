@@ -30,15 +30,17 @@
             animation-timing-function: ease;
             animation-iteration-count: infinite;
             animation-direction: alternate;
-            
+
         }
-        @keyframes ball{
-         from{
-            margin-top: 0px;
-         }
-to{
-margin-top: 600px;
-}
+
+        @keyframes ball {
+            from {
+                transform: translateX(-600px);
+            }
+
+            to {
+                transform: translateX(600px);
+            }
         }
     </style>
 </head>
